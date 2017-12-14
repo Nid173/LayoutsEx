@@ -1,8 +1,41 @@
+.rectangleS{
+	width:333px;
+	height:349px;
+	float:left;
+	display:block;
+	background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+/*
+.rectangle{
+	width:333px;
+	height:349px;
+	float:left;
+	display:block;
+	background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+*/
+.plus{
+	width:333px;
+	height:349px;
+	float:left;
+	display:block;
+	background-image: url(../../images/white_plus.png);
+	background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.padd{
+		padding-bottom: 50px;
+}
+
 * {
     margin: 0px;
     padding: 0px;
 }
-
 a {
     text-decoration:none;
     color: #ffffff;
@@ -16,6 +49,8 @@ a:hover
 {
     color:#b0b5ba;
 }
+
+
 
 header, footer, aside, section, main, article , a ,nav {
     display: block;
@@ -54,10 +89,10 @@ footer{
 #clickedButton{
     background-color: #003748;
 }
-.warper{
-    margin:0px auto;
-    width:1000px;
+#mainContent{
 }
+
+
 .warperl2{
     margin-bottom:-50px;
 }
@@ -120,6 +155,7 @@ section article{
     height:100px;
     width:100px;
 }
+
 .clear {
     clear: both;
 }
@@ -183,3 +219,40 @@ section article{
     float: left;
     margin-right:30px;
 }
+
+@media only screen and (min-width:1000px){
+.warper{
+	margin:0px auto;
+	display:block;
+	width:1000px;
+	}
+
+}
+@media only screen and (min-width:666px) and (max-width:1000px){
+.warper{
+	margin:0px auto;
+	display:block;
+	width:666px;
+	}
+.navA{
+	margin-left:0px;
+	width:30%;
+}
+
+}
+@media only screen and (max-width:666px) {
+.warper{
+	margin:0px auto;
+	display:block;
+	width:333px; 
+	}
+.navA{
+	margin-left:0px;
+	width:30%;
+}
+
+}
+
+
+
+
